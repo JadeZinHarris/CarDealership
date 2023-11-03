@@ -2,21 +2,45 @@ package com.pluarsight;
 import java.util.ArrayList;
 
 public class Dealership {
+//--------------------Getter and Setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String address) {
+        Address = address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
 
     private String name;
     private String Address;
     private String phone;
     private static ArrayList<Vehicle> inventory;
 
-    //-----------------------------------------------
-    public Dealership(String name, String address, String phone, ArrayList<Vehicle> inventory) {
+    //----------------------------------------------- Constructors
+    public Dealership(String name, String address, String phone) {
         this.name = name;
         Address = address;
         this.phone = phone;
         this.inventory = inventory;
     }
 
-    //-------------------------------------------------
+    //------------------------------------------------- Arrays
 
     static class cars {
 
