@@ -38,6 +38,7 @@ public class DealershipFileManager {
 
 
                         Vehicle vehicle = new Vehicle(vin, year, make, model, vehicleType, color, odometer, price);
+                        dealership.addVehicle(vehicle);
 
 
                     }
@@ -48,6 +49,10 @@ public class DealershipFileManager {
                 throw new RuntimeException(e);
             }
         }
+        return dealership;
+    }
+    public Dealership saveDealership (Dealership dealership) {
         return null;
+
     }
 }

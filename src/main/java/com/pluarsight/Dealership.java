@@ -1,5 +1,6 @@
 package com.pluarsight;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Dealership {
 //--------------------Getter and Setters
@@ -26,6 +27,9 @@ public class Dealership {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+    public void setInventory(ArrayList<Vehicle> inventory) {
+        this.inventory = inventory;
+    }
 
     private String name;
     private String Address;
@@ -37,20 +41,38 @@ public class Dealership {
         this.name = name;
         Address = address;
         this.phone = phone;
-        this.inventory = inventory;
+
+
     }
+
+    public void addVehicle(Vehicle vehicle) {
+        inventory.add(vehicle);}
+    public void removeVehicle(Vehicle vehicle) {
+        inventory.remove(vehicle);}
+
+    public ArrayList<Vehicle> getVehiclesByPrice(Double min, Double max) {
+        ArrayList<Vehicle> inventoryWithinRange = new ArrayList<>();
+        for (Vehicle vehicle : inventory) {
+            if (vehicle.getPrice() >= min && vehicle.getPrice() <= max) {
+                inventoryWithinRange.add(vehicle);
+            }
+        }
+        return inventoryWithinRange;
+    }
+
+
 
     //------------------------------------------------- Arrays
 
-    static class cars {
+    //static class Cars {
 
-        public void addVehicle(Vehicle vehicle) {
-            inventory.add(vehicle);
-        }
+        //public void addVehicle(Vehicle vehicle) {
+           // inventory.add(vehicle);
+       // }
 
-        public void removeVehicle(Vehicle vehicle) {
-            inventory.remove(vehicle);
-        }
+       // public void removeVehicle(Vehicle vehicle) {
+         //   inventory.remove(vehicle);
+      //  }
 
         public ArrayList<Vehicle> getAllVehicles() {
 
@@ -58,15 +80,8 @@ public class Dealership {
 
         }
 
-        public ArrayList<Vehicle> getVehiclesByPrice(double min, double max) {
-            ArrayList<Vehicle> inventoryWithinRange = new ArrayList<>();
-            for (Vehicle vehicle : inventory) {
-                if (vehicle.getPrice() >= min && vehicle.getPrice() <= max) {
-                    inventoryWithinRange.add(vehicle);
-                }
-            }
-            return inventoryWithinRange;
-        }
+
+
 
         public ArrayList<Vehicle> getVehiclesByMakeModel(String make, String model) {
             ArrayList<Vehicle> inventoryMakeModel = new ArrayList<>();
@@ -112,5 +127,15 @@ public class Dealership {
                 return inventoryType;
             }
         }
+
+    public ArrayList<Vehicle> getVehicleByYear(int min, int max) {
+        ArrayList<Vehicle> inventoryWithinRanges = new ArrayList<>();
+        for (Vehicle vehicle : inventory) {
+            if (vehicle.getPrice() >= min && vehicle.getPrice() <= max) {
+                inventoryWithinRanges.add(vehicle);
+            }
+        }
+        return inventoryWithinRanges;
     }
 }
+
