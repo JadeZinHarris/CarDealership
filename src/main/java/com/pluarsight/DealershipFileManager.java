@@ -13,10 +13,8 @@ public class DealershipFileManager {
         {
             String line = null;
             int lineNumber = 1;
-            try {
-
-                BufferedReader br = new BufferedReader(new FileReader("inventory.csv"));
-                while ((line = br.readLine()) != null) {
+            try (BufferedReader reader = new BufferedReader(new FileReader( "inventory.csv"))){
+                while ((line = reader.readLine()) != null) {
                     String[] pipes = line.split("\\|");
 
                     if (lineNumber == 1) {
