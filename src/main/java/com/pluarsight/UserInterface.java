@@ -43,10 +43,10 @@ public class UserInterface {
         Double max = null;
 
         while (min == null || max == null || min >= max) {
-            System.out.print("Enter min:\uD83D\uDC49\uD83C\uDFFD ");
+            System.out.print("Enter min:\uD83D\uDC31 ");
             String minInput = input.next();
 
-            System.out.print("Enter max: \uD83D\uDC49\uD83C\uDFFD");
+            System.out.print("Enter max: \uD83D\uDC31");
             String maxInput = input.next();
 
             try {
@@ -65,9 +65,9 @@ public class UserInterface {
     }
 
     public void processGetByMakeModelRequest(){
-        System.out.println("enter make:\uD83D\uDC49\uD83C\uDFFD");
+        System.out.println("enter make:\uD83D\uDC31");
         String make = input.next();
-        System.out.println("enter model:\uD83D\uDC49\uD83C\uDFFD");
+        System.out.println("enter model:\uD83D\uDC31");
         String model = input.next();
         displayHelper(dealership.getVehiclesByMakeModel(make, model));
 
@@ -78,10 +78,10 @@ public class UserInterface {
         int max = -1;
 
         while (min == -1 || max == -1 || min >= max) {
-            System.out.print("Enter min:\uD83D\uDC49\uD83C\uDFFD ");
+            System.out.print("Enter min:\uD83D\uDC31 ");
             String minInput = input.next();
 
-            System.out.print("Enter max: \uD83D\uDC49\uD83C\uDFFD");
+            System.out.print("Enter max: \uD83D\uDC31");
             String maxInput = input.next();
 
             try {
@@ -111,10 +111,10 @@ public class UserInterface {
         int max = -1;
 
         while (min == -1 || max == -1 || min >= max) {
-            System.out.print("Enter min:\uD83D\uDC49\uD83C\uDFFD ");
+            System.out.print("Enter min:\u26D0 ");
             String minInput = input.next();
 
-            System.out.print("Enter max: \uD83D\uDC49\uD83C\uDFFD");
+            System.out.print("Enter max: \u26D0");
             String maxInput = input.next();
 
             try {
@@ -132,7 +132,7 @@ public class UserInterface {
     }
 
     public void processGetByVehicleTypeRequest(){
-        System.out.println("enter vehicle type:\uD83D\uDC49\uD83C\uDFFD");
+        System.out.println("enter vehicle type:\u26D0");
         String type = input.next();
         displayHelper(dealership.getVehicleByType(type));
     }
@@ -151,7 +151,7 @@ public class UserInterface {
         int odometer = -1;
         Double price = -1.0;
         while (vin == -1) {
-            System.out.print("Enter vin:\uD83D\uDC49\uD83C\uDFFD ");
+            System.out.print("Enter vin: \u26EB ");
             try {
                 vin = Integer.parseInt(input.nextLine());
             } catch (NumberFormatException e) {
@@ -159,7 +159,7 @@ public class UserInterface {
             }
         }
         while (year == -1) {
-            System.out.print("Enter year: \uD83D\uDC49\uD83C\uDFFD");
+            System.out.print("Enter year: \u26EB");
             try {
                 year = Integer.parseInt(input.nextLine());
             } catch (NumberFormatException e) {
@@ -177,7 +177,7 @@ public class UserInterface {
         }
 
         while (model == null) {
-            System.out.print("Enter model: \uD83D\uDC49\uD83C\uDFFD");
+            System.out.print("Enter model: \u26EB");
             model = input.nextLine();
             if (model.contains("|")) {
                 System.out.println("Model cannot contain a pipe character (|)");
@@ -186,7 +186,7 @@ public class UserInterface {
         }
 
         while (vehicleType == null) {
-            System.out.print("Enter vehicle type:\uD83D\uDC49\uD83C\uDFFD ");
+            System.out.print("Enter vehicle type:\u26EB ");
             vehicleType = input.nextLine();
             if (vehicleType.contains("|")) {
                 System.out.println("Vehicle type cannot contain a pipe character (|)");
@@ -195,7 +195,7 @@ public class UserInterface {
         }
 
         while (color == null) {
-            System.out.print("Enter color:\uD83D\uDC49\uD83C\uDFFD ");
+            System.out.print("Enter color: \u26D3");
             color = input.nextLine();
             if (color.contains("|")) {
                 System.out.println("Color cannot contain a pipe character (|)");
@@ -204,7 +204,7 @@ public class UserInterface {
         }
 
         while (odometer == -1) {
-            System.out.print("Enter odometer:\uD83D\uDC49\uD83C\uDFFD ");
+            System.out.print("Enter odometer: \u26D3 ");
             try {
                 odometer = Integer.parseInt(input.nextLine());
             } catch (NumberFormatException e) {
@@ -213,7 +213,7 @@ public class UserInterface {
         }
 
         while (price == -1.0) {
-            System.out.print("Enter price:\uD83D\uDC49\uD83C\uDFFD ");
+            System.out.print("Enter price: \u26D3 ");
             try {
                 price = Double.parseDouble(input.nextLine());
             } catch (NumberFormatException e) {

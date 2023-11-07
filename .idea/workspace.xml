@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6341ed0f-e855-4754-9ce1-d641595bf4d4" name="Changes" comment="Updating UserInterface">
-      <change afterPath="$PROJECT_DIR$/dealership.csv" afterDir="false" />
+    <list default="true" id="6341ed0f-e855-4754-9ce1-d641595bf4d4" name="Changes" comment="Added Dealership.csv">
+      <change afterPath="$PROJECT_DIR$/src/test/java/VehicleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inventory.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluarsight/Dealership.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/DealershipFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluarsight/DealershipFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluarsight/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluarsight/Dealership.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluarsight/Dealership.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluarsight/DealershipFileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluarsight/DealershipFileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluarsight/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluarsight/UserInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699331834190</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Dealership.csv">
+      <created>1699333164017</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699333164017</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +140,7 @@
     <MESSAGE value="Updating Dealership" />
     <MESSAGE value="Updating DealershipFileManager" />
     <MESSAGE value="Updating UserInterface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating UserInterface" />
+    <MESSAGE value="Added Dealership.csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Dealership.csv" />
   </component>
 </project>
