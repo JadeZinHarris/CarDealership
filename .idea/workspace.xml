@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6341ed0f-e855-4754-9ce1-d641595bf4d4" name="Changes" comment="Updating UserInterface">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/DealershipFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluarsight/DealershipFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/inventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/inventory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluarsight/DealershipFileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluarsight/DealershipFileManager.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Xd95OGnViIZsER3WPQ27j7NLTG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;0d570cb2-96df-43cc-80da-7f777e6d0afe&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src\main\" />
+      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src\main\java\com\pluarsight" />
+      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src\" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6341ed0f-e855-4754-9ce1-d641595bf4d4" name="Changes" comment="" />
+      <created>1698947908244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698947908244</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Setting up the java files for code">
+      <created>1698948492741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698948492741</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added getter and Setter for Vehicles">
+      <created>1698948733022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698948733022</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updating Dealership">
+      <created>1698955332028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698955332028</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updating DealershipFileManager">
+      <created>1699032788127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699032788127</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updating UserInterface">
+      <created>1699331356313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699331356313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setting up the java files for code" />
+    <MESSAGE value="Added getter and Setter for Vehicles" />
+    <MESSAGE value="Updating Dealership" />
+    <MESSAGE value="Updating DealershipFileManager" />
+    <MESSAGE value="Updating UserInterface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating UserInterface" />
+  </component>
+</project>
