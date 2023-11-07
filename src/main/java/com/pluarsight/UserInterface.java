@@ -228,7 +228,7 @@ public class UserInterface {
     }
 
     public void processRemoveVehicleRequest(){
-        System.out.println("enter the vin of the vehicle you want to remove:\uD83D\uDC49\uD83C\uDFFD ");
+        System.out.println("enter the vin of the vehicle you want to remove: \u25C6 ");
         int vin = Integer.parseInt(input.next());
         int counter = 0;
         for (Vehicle x: dealership.getAllVehicles()){
@@ -263,7 +263,7 @@ public class UserInterface {
             System.out.println("99) Quit");
 
 
-            System.out.print("Your Selection \uD83D\uDC49\uD83C\uDFFD");
+            System.out.print("Your Selection \uD83D\uDC36");
             String input = scanner.nextLine().trim();
 
             switch (input) {

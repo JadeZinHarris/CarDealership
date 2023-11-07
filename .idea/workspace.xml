@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6341ed0f-e855-4754-9ce1-d641595bf4d4" name="Changes" comment="Updating UserInterface">
+      <change afterPath="$PROJECT_DIR$/dealership.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inventory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluarsight/Dealership.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/DealershipFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluarsight/DealershipFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/inventory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/inventory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluarsight/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluarsight/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluarsight/Dealership.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluarsight/Dealership.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pluarsight/DealershipFileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluarsight/DealershipFileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluarsight/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluarsight/UserInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,24 +35,29 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Xd95OGnViIZsER3WPQ27j7NLTG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;0d570cb2-96df-43cc-80da-7f777e6d0afe&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "0d570cb2-96df-43cc-80da-7f777e6d0afe"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src\main\" />
-      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src\main\java\com\pluarsight" />
+      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\" />
+      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src\main" />
+      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src" />
       <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src\" />
+      <recent name="C:\Users\Jadal\OneDrive\Desktop\pluarsight\workshops\CarDealership\src\main\" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699331356313</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updating UserInterface">
+      <created>1699331823178</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699331823178</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updating UserInterface">
+      <created>1699331834190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699331834190</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +133,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Setting up the java files for code" />
     <MESSAGE value="Added getter and Setter for Vehicles" />
     <MESSAGE value="Updating Dealership" />

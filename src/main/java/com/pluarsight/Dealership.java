@@ -1,6 +1,6 @@
 package com.pluarsight;
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class Dealership {
 //--------------------Getter and Setters
@@ -34,13 +34,14 @@ public class Dealership {
     private String name;
     private String Address;
     private String phone;
-    private static ArrayList<Vehicle> inventory;
+    private  ArrayList<Vehicle> inventory;
 
     //----------------------------------------------- Constructors
     public Dealership(String name, String address, String phone) {
         this.name = name;
         Address = address;
         this.phone = phone;
+        this.inventory = new ArrayList<>();
 
 
     }
